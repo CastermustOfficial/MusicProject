@@ -1,0 +1,20 @@
+# Real XCodec Decoder Requirements
+# Install these to enable real music generation instead of placeholder tones
+
+# Core transformers for XCodec models
+transformers>=4.36.0
+accelerate>=0.25.0
+
+# Audio processing
+scipy>=1.11.0
+librosa>=0.10.0
+
+# For model inference
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# XCodec2 specific dependencies
+einops>=0.8.0
+torchtune>=0.6.0
+torchao>=0.14.0
+vector-quantize-pytorch>=1.27.0

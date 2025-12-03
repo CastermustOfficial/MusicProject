@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pydantic
+requests
+python-multipart
+lmstudio
+matchering
+llama-cpp-python
